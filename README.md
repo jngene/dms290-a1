@@ -6,9 +6,12 @@ The Javascript in `script.js` is activated when the `scroll-up` element is click
 
 ## Changes made for assignment 2
 > Changes made by Aman Shrestha
-Markup : -Layout
-            -Added animation so that the title appears first, then the two images
-            -This brings a smooth introduction to the place with the title, the words "The world's happiest city" and then two images
-        -Embellishments
-            -Changed the font size of section-header; added shadow, padding and z-index to section-header; reduced opacity of background image
-            -This makes the section-header more visible against the background
+
+- Layout
+
+    - Added animation so that the title appears first, then the two images
+
+    - This brings a smooth introduction to the place with the title, the words "The world's happiest city" and then two images
+- Embellishments
+    - Changed the font size of section-header; added shadow, padding and z-index to section-header; reduced opacity of background image
+    - This makes the section-header more visible against the background
