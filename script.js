@@ -8,5 +8,26 @@ function bookTrip() {
 
 
 $( document ).ready(function() {
-  alert("ready");
+
+  var mainTitle = $('.main-title');
+
+  var kirkenImage = $('#kirken-image');
+  var copenhillImage = $('#copenhill-image');
+
+  var mainTitleHeight = mainTitle.height();
+  var heightOfKirken = kirkenImage.height();
+  var heightOfCopenhill = copenhillImage.height();
+
+  mainTitle.height('10px');
+  kirkenImage.height('10px');
+  copenhillImage.height('10px');
+
+  mainTitle.animate({height:mainTitleHeight},function(){
+    kirkenImage.animate({height: heightOfKirken},function() {
+      copenhillImage.animate({height: heightOfCopenhill});
+    });
+  })
+  
+
+  
 });
