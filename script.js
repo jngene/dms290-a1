@@ -22,7 +22,7 @@ $( document ).ready(function() {
   kirkenImage.height('10px');
   copenhillImage.height('10px');
 
-  mainTitle.animate({height:mainTitleHeight},function(){
+  mainTitle.animate({height:mainTitleHeight},500,function(){
     kirkenImage.animate({height: heightOfKirken},function() {
       copenhillImage.animate({height: heightOfCopenhill});
     });
