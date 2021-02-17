@@ -5,3 +5,8 @@ function scrollUp() {
 function bookTrip() {
   window.location.href = 'https://www.expedia.com/Copenhagen.d178252.Destination-Travel-Guides';
 }
+
+
+$( document ).ready(function() {
+  alert("ready");
+});
