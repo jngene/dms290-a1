@@ -104,6 +104,7 @@ a:hover {
   width: 100vw;
   max-width: 1400px;
   z-index: 1;
+  opacity: 0.5;
 }
 
 .jumbo-image {
@@ -123,6 +124,7 @@ a:hover {
   font-size: 32px;
   margin: 4px 0;
   padding: 0;
+  z-index: 10;
 }
 
 .right {
