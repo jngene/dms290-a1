@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Playfair+Display:wght@900&display=swap');
 /* UNIVERSAL STYLES */
 
 html, body {
   margin: 0;
   padding: 0;
-  font-family: 'Fraunces', serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 * {
@@ -12,7 +13,7 @@ html, body {
 }
 
 p {
-  line-height: 1.5;
+  line-height: 1.75em;
 }
 
 ::selection { background: yellow; }
@@ -42,6 +43,7 @@ a:hover {
 .nav-title {
   font-size: 24px;
   margin: 0;
+  font-family: 'Playfair Display', serif;
 }
 
 .nav-link {
@@ -74,14 +76,17 @@ a:hover {
   margin: 0 auto;
   padding: 0 16px;
   z-index: 2;
+  height: auto !important;
 }
 
 .title {
   font-size: 148px;
-  background: -webkit-linear-gradient(left, #f2c87b , #82d0c3);
-  background: -o-linear-gradient(right, #f2c87b, #82d0c3);
-  background: -moz-linear-gradient(right, #f2c87b, #82d0c3);
-  background: linear-gradient(to right, #f2c87b , #82d0c3);
+  font-family: 'Playfair Display', serif;
+  background: rgb(42,188,190);
+  background: -moz-linear-gradient(90deg, rgba(42,188,190,1) 0%, rgba(253,187,45,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(42,188,190,1) 0%, rgba(253,187,45,1) 100%);
+  background: linear-gradient(90deg, rgba(42,188,190,1) 0%, rgba(253,187,45,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2abcbe",endColorstr="#fdbb2d",GradientType=1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
@@ -90,11 +95,11 @@ a:hover {
 }
 
 .subtitle {
-  font-size: 64px;
-  color: #2E2E2E;
+  font-size: 40px;
+  color: black;
   padding: 0;
   margin: 0;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .jumbo-images {
@@ -120,17 +125,18 @@ a:hover {
 }
 
 /* TEXT CONTENT SECTIONS */
+.sections-container {
+  margin: 0 auto;
+  max-width: 850px;
+}
+
 .section-header {
+  font-family: 'Playfair Display', serif;
   font-size: 40px;
   margin: 4px 0;
   padding: 0;
   padding-bottom: 10px;
-  padding-left: 5px;
   z-index: 10;
-  text-shadow: 0px 4px 3px rgb(0 0 0 / 40%), 
-              0px 8px 13px rgb(0 0 0 / 10%), 
-              0px 18px 23px rgb(0 0 0 / 10%);
-
 }
 
 .right {
@@ -139,7 +145,8 @@ a:hover {
 }
 
 .section-text {
-  font-size: 18px;
+  font-size: 17px;
+  margin-top: 0px;
 }
 
 .section {
@@ -151,6 +158,9 @@ a:hover {
   max-width: 1200px;
 }
 
+.about-section {
+  margin-top: 160px;
+}
 
 /* STATS SECTION STYLES */
 .cards-wrapper {
